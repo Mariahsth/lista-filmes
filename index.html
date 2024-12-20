@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Filmes</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <h2>Adicione um filme</h2>
+
+  <form id="filme-form">
+    <input type="hidden" id="filme-id" />
+    <label for="filme-nome">Nome do filme:</label>
+    <input type="text" id="filme-nome" placeholder="Digite o nome do seu filme" required />
+    <label for="filme-genero">Gênero:</label>
+    <input type="text" id="filme-genero" placeholder="Insira o gênero" required />
+    <label for="filme-data">Data de lançamento:</label>
+    <input type="date" id="filme-data" required/>
+    <button type="submit" id="botao-salvar">Salvar</button>
+    <button type="button" id="botao-cancelar">Cancelar</button>
+  </form>
+
+  <section id="lista-filmes-container">
+
+    <h2>Lista de Filmes</h2>
+    <section>
+      <input id="campo-pesquisa" type="text" placeholder="O que você está procurando?" class="barra-pesquisa">
+    </section>
+    <ul id="lista-filmes"></ul>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script type="module" src="js/api.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/ui.js"></script>
+
+</body>
+
+</html>

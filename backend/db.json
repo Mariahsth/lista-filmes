@@ -1,0 +1,139 @@
+{
+  "filmes": [
+    {
+      "id": "1001",
+      "nome": "O Iluminado",
+      "genero": "Terror",
+      "data": "2024"
+    },
+    {
+      "id": "1002",
+      "nome": "Forrest Gump: O Contador de Histórias",
+      "genero": "Drama",
+      "data": "2024-12-16T00:00:00.000Z"
+    },
+    {
+      "id": "1003",
+      "favorito": false,
+      "nome": "Matrix",
+      "genero": "Ficção Científica",
+      "data": "2023-12-19T10:02:00.789Z"
+    },
+    {
+      "id": "1004",
+      "favorito": false,
+      "nome": "Batman: O Cavaleiro das Trevas",
+      "genero": "Ação",
+      "data": "2023-12-19T10:03:00.012Z"
+    },
+    {
+      "id": "1005",
+      "favorito": false,
+      "nome": "Alien: Romulus",
+      "genero": "Ficção Científica",
+      "data": "2023-12-19T10:04:00.345Z"
+    },
+    {
+      "id": "1006",
+      "favorito": false,
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "genero": "Fantasia",
+      "data": "2023-12-19T10:05:00.678Z"
+    },
+    {
+      "id": "1007",
+      "favorito": false,
+      "nome": "Vingadores: Ultimato",
+      "genero": "Ação",
+      "data": "2023-12-19T10:06:00.901Z"
+    },
+    {
+      "id": "1008",
+      "nome": "A Origem",
+      "genero": "Ficção Científica",
+      "data": "2024-12-11T00:00:00.000Z"
+    },
+    {
+      "id": "1009",
+      "favorito": false,
+      "nome": "O Rei Leão",
+      "genero": "Animação",
+      "data": "2023-12-19T10:08:00.567Z"
+    },
+    {
+      "id": "1010",
+      "favorito": false,
+      "nome": "A Lista de Schindler",
+      "genero": "Drama",
+      "data": "2023-12-19T10:09:00.890Z"
+    },
+    {
+      "id": "1011",
+      "favorito": false,
+      "nome": "Os Infiltrados",
+      "genero": "Suspense",
+      "data": "2023-12-19T10:10:00.123Z"
+    },
+    {
+      "id": "1012",
+      "favorito": false,
+      "nome": "Gladiador",
+      "genero": "Ação",
+      "data": "2023-12-19T10:11:00.456Z"
+    },
+    {
+      "id": "1013",
+      "favorito": false,
+      "nome": "Coringa",
+      "genero": "Drama",
+      "data": "2023-12-19T10:12:00.789Z"
+    },
+    {
+      "id": "1014",
+      "favorito": false,
+      "nome": "Pulp Fiction: Tempo de Violência",
+      "genero": "Crime",
+      "data": "2023-12-19T10:13:00.012Z"
+    },
+    {
+      "id": "1015",
+      "favorito": false,
+      "nome": "Jurassic Park: O Parque dos Dinossauros",
+      "genero": "Aventura",
+      "data": "2023-12-19T10:14:00.345Z"
+    },
+    {
+      "id": "1016",
+      "favorito": false,
+      "nome": "Star Wars: O Império Contra-Ataca",
+      "genero": "Ficção Científica",
+      "data": "2023-12-19T10:15:00.678Z"
+    },
+    {
+      "id": "1017",
+      "nome": "De Volta Para o Futuro",
+      "genero": "Ficção Científica",
+      "data": "2023-12-12T00:00:00.000Z"
+    },
+    {
+      "id": "1018",
+      "favorito": false,
+      "nome": "O Lobo de Wall Street",
+      "genero": "Comédia",
+      "data": "2023-12-19T10:17:00.234Z"
+    },
+    {
+      "id": "1019",
+      "favorito": false,
+      "nome": "Procurando Nemo",
+      "genero": "Animação",
+      "data": "2023-12-19T10:18:00.567Z"
+    },
+    {
+      "id": "1020",
+      "nome": "Brilho Eterno de uma Mente Sem Lembranças",
+      "genero": "Drama",
+      "data": "2024"
+    }
+  ]
+}

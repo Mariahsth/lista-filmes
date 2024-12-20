@@ -1,0 +1,68 @@
+:root{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#lista-filmes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lista-filmes {
+  width: 80vw;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.li-filme{
+  width: 200px;
+  height: 150px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+}
+
+.icones{
+  display:flex;
+  gap:20px;
+  justify-content: center;
+}
+
+.filme-nome, .filme-genero{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  gap:20px;
+}
+
+.filme-nome{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filme-genero{
+  color:gray;
+}
+
+.barra-pesquisa{
+  width:100%;
+  padding: 0 1em;
+}
+
